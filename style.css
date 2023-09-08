@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    /*background-color: rgb(36, 84, 102);*/
+    font-size: 20px;
+    background-image: url("space3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: #A6CFD5;
+    font-size: 5em;
+    margin-left: 42%;
+    margin-right: 50%;
+}
+
+p {
+    color: #36494E;
+}
+
+.quebra {
+    background-color: #36494E;
+    height: 25px;
+    /*position: sticky;
+    top: 350px;*/
+}
+
+#para1{
+    background-image: url("space1.jpg");
+    z-index: 0;
+}
+
+#para3 {
+    background-image: url("space3.jpg");
+    height: 50px;
+    z-index: 1;
+}
+
+#para2 {
+    background-image: url("space2.jpg");
+    height: 50px;
+    z-index: 0;
+}
+
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topo {
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+
+}
+
+.container-topo {
+    /*position: sticky;
+    top: 0;*/
+    background-color: #A6CFD5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 350px;
+
+}
+.container-topo>div {
+padding: 10px;
+}
+
+.container-topo>div p {
+    font-size: 20px;
+    text-align: center;
+    }
+
+#im1{
+    background-image: url("space1.jpg");
+}
+
+#im2{
+    background-image: url("space2.jpg");
+}
+
+#im3 {
+    background-image: url("space3.jpg")
+}
+
+input:focus {
+    border-color: aliceblue;
+    background-color: ;
+}
+
+.container-topo>div input {
+        height: 35px;
+        width: 200px;
+        border-radius: 5px;
+        padding-left: 10px;
+        border-color: aqua;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 25px;
+        color: aliceblue;
+        }
+
+.caixas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 350px;
+}
+
+#box {
+    background-color: #A6CFD5;
+    width: 250px;
+    height: 260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+
+
+/*.container-nome-persongem {
+
+
+}
+
+.container-nome-jogador {
+
+}
+
+.container-nome-xp {
+
+}
+
+.container-nome-raca {
+
+}
+
+.container-nome-classe {
+
+}
+
+.container-nome-alinhamento{
+
+}*/
